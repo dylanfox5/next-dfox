@@ -14,7 +14,7 @@ export default function Page() {
           data collection strategies.`}
       </p>
       <p className="mb-4">
-        {`I wrapped up my MS degree in the spring of 2023 and joined the Data Science & Analytics team at Honeywell FM&T, where I work as a Data Scientist. Outside of
+        {`I wrapped up my MS degree in the spring of 2023 and joined the Data Science & Analytics team at Honeywell FM&T, where I work as a data scientist. Outside of
           work, I enjoy serving in my local church, playing soccer, and running.`}
       </p>
       <p>{`<3`}</p>
