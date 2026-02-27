@@ -1,11 +1,5 @@
 import {
   Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/app/components/ui/card";
 
 import {
@@ -14,15 +8,14 @@ import {
   HoverCardTrigger,
 } from "@/app/components/ui/hover-card";
 import { Button } from "@/app/components/ui/button";
-import Link from "next/link";
 
 export default function Page() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Contact</h1>
-      <h1 className="font-semibold text-xl tracking-tighter mb-2">
+      <h2 className="font-semibold text-xl tracking-tighter mb-2">
         Looking to hire a developer? Let's talk
-      </h1>
+      </h2>
       <div className="mb-4">
         <Card className="h-full bg-white border border-gray-200 shadow-lg rounded-lg p-4 transition-shadow">
           <div className="space-y-2">
@@ -34,9 +27,9 @@ export default function Page() {
           </div>
         </Card>
       </div>
-      <h1 className="font-semibold text-xl tracking-tighter mb-2">
+      <h2 className="font-semibold text-xl tracking-tighter mb-2">
         What can I help with?
-      </h1>
+      </h2>
       <div className="grid md:grid-cols-3 gap-4 mb-4">
         <HoverCard>
           <HoverCardTrigger asChild>
@@ -115,7 +108,7 @@ export default function Page() {
           </HoverCardContent>
         </HoverCard>
       </div>
-      <h1 className="font-semibold text-xl tracking-tighter mb-2">Why me?</h1>
+      <h2 className="font-semibold text-xl tracking-tighter mb-2">Why me?</h2>
       <div className="grid md:grid-cols-1 gap-4 mb-4">
         <Card className="h-full bg-white border border-gray-200 shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow">
           <div className="space-y-2">
@@ -137,17 +130,17 @@ export default function Page() {
           </div>
         </Card>
       </div>
-      <h1 className="font-semibold text-xl tracking-tighter mb-2">
+      <h2 className="font-semibold text-xl tracking-tighter mb-2">
         Want to chat?
-      </h1>
-      <Link href="mailto:dfox@dylanfox.net">
+      </h2>
+      <a href="mailto:dfox@dylanfox.net">
         <Button
           className="h-full bg-white border border-gray-200 shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow cursor-pointer"
           variant="outline"
         >
           Shoot me a message
         </Button>
-      </Link>
+      </a>
     </section>
   );
 }
