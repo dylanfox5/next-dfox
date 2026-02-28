@@ -104,11 +104,17 @@ let components = {
   Table,
 }
 
-export function CustomMDX(props: React.ComponentProps<typeof MDXRemote>) {
+type CustomMDXProps = {
+  source: string
+  components?: Record<string, React.ComponentType<any>>
+}
+
+export function CustomMDX({ source, components: extraComponents }: CustomMDXProps) {
+  const mergedComponents = { ...components, ...(extraComponents ?? {}) }
   return (
     <MDXRemote
-      {...props}
-      components={{ ...components, ...(props.components || {}) }}
+      source={source}
+      components={mergedComponents as React.ComponentProps<typeof MDXRemote>['components']}
     />
   )
 }
