@@ -56,6 +56,13 @@ export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
 }
 
+export function formatDateShort(date: string): string {
+  if (!date.includes('T')) {
+    date = `${date}T00:00:00`
+  }
+  return new Date(date).toLocaleString('en-us', { month: 'short', year: 'numeric' })
+}
+
 export function formatDate(date: string, includeRelative = false) {
   let currentDate = new Date()
   if (!date.includes('T')) {

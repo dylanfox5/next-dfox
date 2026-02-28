@@ -1,31 +1,27 @@
+import Link from 'next/link'
 import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">dfox</h1>
-      <p className="mb-4">
+      <p className="mb-4 text-neutral-800 dark:text-neutral-200">
         {`My name is Dylan Fox. I'm a pastoral assistant, MDiv student, and freelance web developer living in Kansas City, Missouri.
           I specialize in innovating creative experiences for the web and developing analytics architecture.`}
       </p>
-      <p className="mb-4">
-        {`I received my degrees in CSIT, Data Science, & Math from Graceland University in 2021. Shortly after, I joined the Analytics Development team at Evolytics
-          and started my MS degree in Data Science & Analytics. I supported high-volume clients as they implemented and maintained analytics architecture and
-          data collection strategies.`}
+      <p className="mb-4 text-neutral-800 dark:text-neutral-200">
+        I'm available for work! Head to{' '}
+        <Link
+          href="/contact"
+          className="underline underline-offset-2 decoration-neutral-400 dark:decoration-neutral-600 decoration-[0.1em] transition-all hover:text-neutral-600 dark:hover:text-neutral-300"
+        >
+          /contact
+        </Link>
+        {' '}to see if we can collaborate on some projects together.
       </p>
-      <p className="mb-4">
-        {`I wrapped up my MS degree in the spring of 2023 and joined the Data Science & Analytics team at Honeywell FM&T, where I worked as a data scientist.
-          I researched graph-based neural networks and led internal development on various full-stack projects.`}
-      </p>
-      <p className="mb-4">
-        {`In August of 2025, I left to pursue my Master of Divinity degree at Midwestern Baptist Theological Seminary. I work as a Pastoral Assistant
-          at my local church in addition to my studies. Outside of work, I enjoy serving in my local church, playing soccer, and running.`}
-      </p>
-      <p className="mb-4">
-        {`I'm available for work! Head to /contact to see if we can collaborate on some projects together.`}
-      </p>
-      <p>{`<3`}</p>
+      <p className="text-neutral-800 dark:text-neutral-200">{`<3`}</p>
       <div className="my-8">
+        <p className="text-sm text-neutral-500 dark:text-neutral-500 mb-4 tracking-tight">writing</p>
         <BlogPosts />
       </div>
     </section>
