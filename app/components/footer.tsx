@@ -41,6 +41,15 @@ export default function Footer() {
             <p className="ml-2 h-7">github</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            href="/contact"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">contact</p>
+          </a>
+        </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} dfox
