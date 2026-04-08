@@ -8,7 +8,22 @@ const projects = [
     name: 'Meno',
     url: 'https://usemeno.app',
     description:
-      'Meno seeks to glorify Christ through cultivating the spiritual disciplines of the Christian life.',
+      'A spiritual disciplines app for the Christian life. Built with React and Next.js.',
+  },
+]
+
+const professional = [
+  {
+    company: 'Honeywell FM&T',
+    period: '2023 – 2025',
+    description:
+      'Led full-stack development on internal tooling and researched graph-based neural networks as part of the Data Science & Analytics team.',
+  },
+  {
+    company: 'Realtor.com · Highrises.com · Athome.com',
+    period: '2021 – 2023',
+    description:
+      'Implemented and maintained clickstream analytics architecture for high-volume real estate platforms, supporting millions of sessions.',
   },
 ]
 
@@ -16,7 +31,8 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Projects</h1>
-      <div className="space-y-4">
+
+      <div className="space-y-4 mb-12">
         {projects.map((project) => (
           <div key={project.name}>
             <a
@@ -29,6 +45,21 @@ export default function Page() {
             </a>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               {project.description}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <p className="text-sm text-neutral-500 dark:text-neutral-500 mb-4 tracking-tight">professional</p>
+      <div className="space-y-6">
+        {professional.map((item) => (
+          <div key={item.company}>
+            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-0.5 sm:gap-4">
+              <p className="font-medium">{item.company}</p>
+              <p className="text-xs text-neutral-500 dark:text-neutral-500 shrink-0">{item.period}</p>
+            </div>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
+              {item.description}
             </p>
           </div>
         ))}

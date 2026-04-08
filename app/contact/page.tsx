@@ -7,9 +7,7 @@ export default function Page() {
         Looking to hire a developer? Let's talk
       </h2>
       <p className="text-neutral-600 dark:text-neutral-400 mb-8">
-        For the last five years, I've been accumulating professional experience
-        in industries like full-stack development, analytics implementation, and
-        data science.
+        For the last five years, I've been building web products professionally — from high-traffic analytics pipelines at Realtor.com to internal tooling at Honeywell.
       </p>
 
       <h2 className="font-semibold text-lg tracking-tight mb-3">
@@ -39,12 +37,10 @@ export default function Page() {
         </div>
       </div>
 
-      <h2 className="font-semibold text-lg tracking-tight mb-3">Why me?</h2>
-      <ul className="text-neutral-600 dark:text-neutral-400 space-y-1 mb-8 list-disc list-inside text-sm">
-        <li>Excellent communicator & organizer</li>
-        <li>Fast learner</li>
-        <li>Strong technical abilities</li>
-      </ul>
+      <h2 className="font-semibold text-lg tracking-tight mb-3">Pricing</h2>
+      <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-8">
+        Every project is scoped individually. Get in touch with a brief description of what you need and I'll send over a proposal within 24 hours.
+      </p>
 
       <h2 className="font-semibold text-lg tracking-tight mb-3">
         Want to chat?
