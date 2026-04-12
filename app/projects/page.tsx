@@ -14,6 +14,12 @@ const projects = [
 
 const professional = [
   {
+    company: 'Freelance',
+    period: '2025 – present',
+    description:
+      'Independent software development and consulting across web and full-stack projects.',
+  },
+  {
     company: 'Honeywell FM&T',
     period: '2023 – 2025',
     description:
