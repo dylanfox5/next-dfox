@@ -2,7 +2,8 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'About',
-  description: 'About Dylan Fox.',
+  description:
+    'Dylan Fox is a web developer and data scientist based in Kansas City. He holds degrees in CSIT, Data Science, and Math from Graceland University and an MS in Data Science & Analytics.',
 }
 
 export default function Page() {

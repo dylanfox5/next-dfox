@@ -11,17 +11,25 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "dfox",
-    template: "%s | dfox",
+    default: "Dylan Fox — Freelance Web Developer",
+    template: "%s | Dylan Fox",
   },
-  description: "This is Dylan Fox's Portfolio.",
+  description:
+    "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
   openGraph: {
-    title: "Dylan",
-    description: "This is Dylan Fox's Portfolio.",
+    title: "Dylan Fox — Freelance Web Developer",
+    description:
+      "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
     url: baseUrl,
     siteName: "Dylan Fox",
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dylan Fox — Freelance Web Developer",
+    description:
+      "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
   },
   robots: {
     index: true,

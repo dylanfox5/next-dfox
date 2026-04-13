@@ -1,0 +1,28 @@
+# Dylan Fox — Freelance Web Developer
+
+Dylan Fox is a freelance web developer based in Kansas City, MO.
+He builds fast, well-crafted websites for small businesses and nonprofits — clean code, thoughtful design, no bloat.
+
+## Background
+
+- BS in CSIT, Data Science, and Mathematics from Graceland University (2021)
+- MS in Data Science & Analytics (2023)
+- 5+ years of professional web development experience
+- Previously: Analytics Development at Evolytics, Data Science at Honeywell FM&T
+- Currently: Pursuing MDiv at Midwestern Baptist Theological Seminary; Pastoral Assistant
+
+## Services
+
+- **Website Development** — JavaScript, TypeScript, React, Next.js
+- **Analytics Implementation** — Clickstream analytics, data collection strategy (clients include Realtor.com, Highrises.com, Athome.com)
+- **Data Science & Analytics** — Graph neural network research, enterprise data science
+
+## Contact
+
+- Email: dylan@dylanfox.net
+- Website: https://dylanfox.net
+- GitHub: https://github.com/dylanfox5
+
+## Writing
+
+Dylan writes about faith, technology, and life at https://dylanfox.net/blog

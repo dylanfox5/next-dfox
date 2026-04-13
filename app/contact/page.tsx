@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Hire a Freelance Web Developer',
+  description:
+    'Get in touch with Dylan Fox — freelance web developer based in Kansas City specializing in React, Next.js, and TypeScript for small businesses and nonprofits.',
+}
+
 export default function Page() {
   return (
     <section>
