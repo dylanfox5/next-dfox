@@ -39,11 +39,17 @@ export default function Page() {
                 name: "Graceland University",
               },
             ],
-            sameAs: ["https://github.com/dylanfox5"],
+            sameAs: [
+              "https://github.com/dylanfox5",
+              "https://www.linkedin.com/in/dylanffox/",
+            ],
           }),
         }}
       />
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">dfox</h1>
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+        <span aria-hidden="true">dfox</span>
+        <span className="sr-only">Dylan Fox — Freelance Web Developer</span>
+      </h1>
       <p className="mb-4 text-neutral-800 dark:text-neutral-200">
         I build fast, well-crafted websites for small businesses and nonprofits — clean code, thoughtful design, no bloat.
       </p>

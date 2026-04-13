@@ -13,6 +13,7 @@ export default async function sitemap() {
     { path: '/blog', lastModified: '2024-09-11' },
     { path: '/about', lastModified: '2025-08-01' },
     { path: '/contact', lastModified: '2024-09-11' },
+    { path: '/projects', lastModified: '2025-08-01' },
   ].map(({ path, lastModified }) => ({
     url: `${baseUrl}${path}`,
     lastModified,
