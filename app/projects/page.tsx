@@ -10,6 +10,12 @@ const projects = [
     description:
       'A spiritual disciplines app for the Christian life. Built with React and Next.js.',
   },
+  {
+    name: "Ben's Custom Creations",
+    url: 'https://benscustomcreations.com',
+    description:
+      'Custom pottery and handcrafted ceramics. Freelance project — designed and built the full website.',
+  },
 ]
 
 const professional = [
