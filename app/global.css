@@ -123,6 +123,14 @@ html {
   margin-bottom: 1.25em !important;
 }
 
+.prose .footnotes {
+  @apply mt-10 pt-4 border-t border-neutral-200 dark:border-neutral-800 text-sm text-neutral-600 dark:text-neutral-400;
+}
+
+.prose .data-footnote-backref {
+  @apply no-underline;
+}
+
 pre::-webkit-scrollbar {
   display: none;
 }
