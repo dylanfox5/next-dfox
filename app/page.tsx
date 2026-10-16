@@ -51,17 +51,46 @@ export default function Page() {
         <span className="sr-only">Dylan Fox — Freelance Web Developer</span>
       </h1>
       <p className="mb-4 text-neutral-800 dark:text-neutral-200">
-        I build fast, well-crafted websites for small businesses and nonprofits — clean code, thoughtful design, no bloat.
+        I build websites for small businesses and nonprofits, then set up the analytics so you know they're working.
       </p>
       <p className="mb-8 text-sm text-neutral-500 dark:text-neutral-500">
-        5+ years of professional web development experience. Based in Kansas City.
+        Before freelancing, I spent 5+ years as a software engineer and data scientist. Now I bring that experience to small businesses and nonprofits. Based in Kansas City.
       </p>
-      <Link
-        href="/contact"
-        className="inline-block mb-12 text-sm underline underline-offset-4 decoration-neutral-400 dark:decoration-neutral-600 decoration-[0.1em] transition-all hover:text-neutral-600 dark:hover:text-neutral-300"
-      >
-        Work with me →
-      </Link>
+
+      <ul className="mb-8 text-sm text-neutral-600 dark:text-neutral-400 space-y-1">
+        <li>Websites & online stores</li>
+        <li>Analytics & reporting</li>
+        <li>Automation for small teams</li>
+      </ul>
+
+      <div className="flex flex-wrap gap-6 mb-12">
+        <Link
+          href="/projects"
+          className="text-sm underline underline-offset-4 decoration-neutral-400 dark:decoration-neutral-600 decoration-[0.1em] transition-all hover:text-neutral-600 dark:hover:text-neutral-300"
+        >
+          See my work →
+        </Link>
+        <Link
+          href="/contact"
+          className="text-sm underline underline-offset-4 decoration-neutral-400 dark:decoration-neutral-600 decoration-[0.1em] transition-all hover:text-neutral-600 dark:hover:text-neutral-300"
+        >
+          Get in touch →
+        </Link>
+      </div>
+
+      <div className="mb-12">
+        <p className="text-sm text-neutral-500 dark:text-neutral-500 mb-4 tracking-tight">recent work</p>
+        <Link
+          href="/projects"
+          className="font-medium underline underline-offset-2 decoration-neutral-400 dark:decoration-neutral-600 decoration-[0.1em] transition-all hover:text-neutral-600 dark:hover:text-neutral-300"
+        >
+          Ben's Custom Creations
+        </Link>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          An online pottery shop for a local artist, with product catalog, Square checkout and order emails.
+        </p>
+      </div>
+
       <div className="my-8">
         <p className="text-sm text-neutral-500 dark:text-neutral-500 mb-4 tracking-tight">writing</p>
         <BlogPosts />

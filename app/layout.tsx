@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     template: "%s | Dylan Fox",
   },
   description:
-    "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
+    "Dylan Fox is a freelance web developer in Kansas City who builds websites for small businesses and nonprofits and sets up the analytics to show they're working.",
   openGraph: {
     title: "Dylan Fox — Freelance Web Developer",
     description:
-      "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
+      "Dylan Fox is a freelance web developer in Kansas City who builds websites for small businesses and nonprofits and sets up the analytics to show they're working.",
     url: baseUrl,
     siteName: "Dylan Fox",
     locale: "en_US",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dylan Fox — Freelance Web Developer",
     description:
-      "Dylan Fox is a freelance web developer based in Kansas City with 5+ years of experience building websites for small businesses and nonprofits using React, Next.js, and TypeScript.",
+      "Dylan Fox is a freelance web developer in Kansas City who builds websites for small businesses and nonprofits and sets up the analytics to show they're working.",
   },
   robots: {
     index: true,
