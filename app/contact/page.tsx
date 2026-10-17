@@ -42,7 +42,7 @@ export default function Page() {
 
       <h2 className="font-semibold text-lg tracking-tight mb-3">Pricing</h2>
       <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-8">
-        Websites typically start at $2,500, and analytics setups at $750. After a short call, you'll get a fixed quote.
+        Every project is different. After a short call, you'll get a fixed quote.
       </p>
 
       <h2 className="font-semibold text-lg tracking-tight mb-3">
