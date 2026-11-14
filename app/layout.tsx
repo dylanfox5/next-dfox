@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono";
 import { Navbar } from "./components/nav";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
 
@@ -70,6 +71,9 @@ export default function RootLayout({
           <SpeedInsights />
         </main>
       </body>
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+      )}
     </html>
   );
 }
